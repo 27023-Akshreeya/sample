@@ -1,0 +1,64 @@
+//menu
+using System.Transactions;
+
+Console.WriteLine("MENU");
+Console.WriteLine("[A]dd contact");
+Console.WriteLine("[S]earch contact");
+Console.WriteLine("[V]iew all contact");
+Console.WriteLine("[E]dit contact");
+Console.WriteLine("[R]emove contact");
+Console.WriteLine("[C]lose contact");
+
+bool flag = true;
+while (flag)
+{
+    Console.Write("Enter you choice:");
+    string inputstr = Console.ReadLine();
+    if(char.TryParse(inputstr, out char res))
+    {
+        Console.WriteLine($"option choosen: {option(res)}");
+    }
+    else
+    {
+        Console.WriteLine("Invalid input. Please enter exactly one charecter of your option");
+    }
+    char inp=Convert.ToChar(inputstr);    
+    switch (inp)
+    {
+        case 'A' or 'a':
+            ADD();
+            break;
+        case 'S' or 's':
+
+            break;
+        case 'V' or 'v':
+            break;
+        case 'E' or 'e':
+            break;
+        case 'R' or 'r':
+            break;
+        case 'C' or 'c':
+            break;
+    }
+}
+
+void ADD()
+{
+    throw new NotImplementedException();
+}
+
+string option(char res)
+{
+    return res switch
+    {
+        'A' or 'a' => "Adding new contact",
+        'S' or 's' => "Searching exisiting contact",
+        'V' or 'v' => "Viewing all contacts",
+        'E' or 'e' => "Edit selected contact",
+        'R' or 'r' => "Remove selected contact",
+        'C' or 'c' => "Closing the application",
+        _ => "Invalid option",
+    };
+}
+
+Console.ReadKey();
