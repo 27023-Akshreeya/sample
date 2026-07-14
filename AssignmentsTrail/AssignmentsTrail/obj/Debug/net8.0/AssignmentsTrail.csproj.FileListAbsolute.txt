@@ -1,0 +1,14 @@
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\AssignmentsTrail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\AssignmentsTrail.AssemblyInfoInputs.cache
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\AssignmentsTrail.AssemblyInfo.cs
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\AssignmentsTrail.csproj.CoreCompileInputs.cache
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\bin\Debug\net8.0\AssignmentsTrail.exe
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\bin\Debug\net8.0\AssignmentsTrail.deps.json
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\bin\Debug\net8.0\AssignmentsTrail.runtimeconfig.json
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\bin\Debug\net8.0\AssignmentsTrail.dll
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\bin\Debug\net8.0\AssignmentsTrail.pdb
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\AssignmentsTrail.dll
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\refint\AssignmentsTrail.dll
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\AssignmentsTrail.pdb
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\AssignmentsTrail.genruntimeconfig.cache
+C:\Users\akshreeya.thiyagaraj\Documents\Assignments\AssignmentsTrail\AssignmentsTrail\obj\Debug\net8.0\ref\AssignmentsTrail.dll
