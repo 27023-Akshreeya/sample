@@ -50,6 +50,7 @@ o Implement the Withdraw() method in the CheckingAccount class to allow
 withdrawals without any restrictions. 
 • Note: You can choose appropriate data types and logic for the methods as per your 
 understanding. 
+
 Submission Guidelines: 
 Submit your complete C# code files (.cs) for the Shape, Rectangle, Circle, Employee, Manager, 
 Developer, BankAccount, SavingsAccount, and CheckingAccount classes. 
@@ -59,3 +60,45 @@ adherence to OOP principles, and the organization and readability of your code.
 Note: This assessment focuses on your practical implementation skills in Object-Oriented 
 Programming. Ensure that your code demonstrates a clear understanding of OOP concepts and 
 principles. Good luck! If you have any questions, feel free to ask for clarification.
+
+
+
+
+# Shape Hierarchy design
+
+## Model:
+- ShapeInfo.cs[
+    ShapeInfo parent {
+        shapeName
+        Color
+    }
+    RectangleInfo child(derived){
+        Length
+        Width
+    }
+    CircleInfo child(derived){
+        Radius
+    }
+]
+
+- Helper.cs[
+    IsColorValid
+    IsDimensionValid
+
+]
+
+## View 
+- UserConsole[
+    - menu
+    - GetUserChoice
+    - GetRectangleDetails { returns object }
+    - GetCircleDetails { returns object }
+]
+
+## Controller
+- Service[
+    - CalculateArea
+    - printdetails
+]
+
+choose either rectangle or circle -> Get required details -> ask user to choose method -> choose whether calculate area or print details  
