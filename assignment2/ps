@@ -1,0 +1,61 @@
+Object-oriented                   
+Programming 
+In this Exercise, you will demonstrate your practical skills in Object-Oriented Programming (OOP). 
+You will be required to implement code solutions that apply various OOP concepts. Read each task 
+carefully and provide your code solution accordingly. 
+
+Task 1: Shape Hierarchy 
+• Create a class called "Shape" with the following properties and methods: 
+o Properties: 
+▪  Color (string): Represents the color of the shape.  
+o Methods: 
+o CalculateArea(): Calculates and returns the area of the shape (abstract method). 
+o PrintDetails(): Displays the color and area of the shape. 
+• Create two derived classes from the Shape class: "Rectangle" and "Circle". 
+o Implement the CalculateArea() method in each derived class to calculate the area of 
+the corresponding shape. 
+o Implement the PrintDetails() method in each derived class to display the color, shape 
+type, and area. 
+
+Task 2: Employee Hierarchy 
+• Create a base class called "Employee" with the following properties and methods: 
+o Properties: 
+▪ Name (string): Represents the name of the employee. 
+▪ Salary (decimal): Represents the salary of the employee. 
+o Methods: 
+▪ CalculateBonus(): Calculates and returns the bonus amount for the 
+employee (abstract method). 
+▪ PrintDetails(): Displays the name, salary, and bonus amount of the 
+employee. 
+o Create two derived classes from the Employee class: "Manager" and "Developer". 
+o Implement the CalculateBonus() method in each derived class to calculate the bonus  
+amount based on their specific rules. Give similar for manager just change the 
+developer to manager. 
+o Implement the PrintDetails() method in each derived class to display the name, 
+position, salary, and bonus amount. 
+
+Task 3: Banking System 
+• Create a class called "BankAccount" with the following properties and methods: 
+o Properties: 
+▪ AccountNumber (string): Represents the account number. 
+▪ Balance (decimal): Represents the account balance. 
+o Methods: 
+▪ Deposit(amount): Deposits the specified amount into the account. 
+▪ Withdraw(amount): Withdraws the specified amount from the account. 
+• Create a derived class called "SavingsAccount" from the BankAccount class. 
+o Implement the Withdraw() method in the SavingsAccount class to restrict 
+withdrawals if the account balance falls below a certain minimum balance. 
+• Create a derived class called "CheckingAccount" from the BankAccount class. 
+o Implement the Withdraw() method in the CheckingAccount class to allow  
+withdrawals without any restrictions. 
+• Note: You can choose appropriate data types and logic for the methods as per your 
+understanding. 
+Submission Guidelines: 
+Submit your complete C# code files (.cs) for the Shape, Rectangle, Circle, Employee, Manager, 
+Developer, BankAccount, SavingsAccount, and CheckingAccount classes. 
+Evaluation Criteria: 
+You will be evaluated based on the correctness and functionality of your code implementation, 
+adherence to OOP principles, and the organization and readability of your code. 
+Note: This assessment focuses on your practical implementation skills in Object-Oriented 
+Programming. Ensure that your code demonstrates a clear understanding of OOP concepts and 
+principles. Good luck! If you have any questions, feel free to ask for clarification.
